@@ -3,6 +3,7 @@ import { Text, TouchableOpacity } from 'react-native'
 function RoundButton({...props}) {
     return (
         <TouchableOpacity
+            onPress={props?.onPress}
             style={{
                 ...props?.containerStyle
             }}

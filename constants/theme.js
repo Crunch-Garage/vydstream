@@ -6,7 +6,8 @@ export const COLORS = {
     vydstream_button: '#E63462',
     vydstream_primary_back: 'rgba(23, 23, 56, 0.9)',
     vydstream_white:'#FDFFFC',
-    vydstream_links: '#5FA8D3'
+    vydstream_links: '#5FA8D3',
+    vydstream_tabBar: 'rgba(0,0,0,0.1)'
 };
 export const SIZES = {
     /*global sizes*/

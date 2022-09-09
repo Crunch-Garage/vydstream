@@ -4,7 +4,7 @@ import { Image, Platform, SafeAreaView, View, StatusBar, Animated, FlatList, Tex
 import { RoundButton } from '../components';
 import { COLORS, FONTS, SIZES, staticData } from '../constants'
 
-function Welcome() {
+function Welcome({ navigation, route}) {
 
     const scrollX = new Animated.Value(0);
 
@@ -205,6 +205,7 @@ function Welcome() {
                         </View>
 
                         <RoundButton
+                        onPress = {() => navigation.navigate('LoginHome')}
                             containerStyle={{
                                 width: SIZES.width * 0.85,
                                 marginTop: SIZES.padding,
@@ -212,7 +213,7 @@ function Welcome() {
                                 flexDirection: 'row',
                                 justifyContent: 'center',
                                 alignItems: 'center',
-                                height: 55,
+                                height: 50,
                                 borderRadius: SIZES.padding * 3,
                                 padding: 10,
                                 backgroundColor: COLORS.vydstream_button,

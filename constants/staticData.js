@@ -1,4 +1,30 @@
-
+export const genreData = [
+    {
+        id: 1,
+        name: "Drama",
+        thumbnail: require("../assets/images/genre/drama.jpg"),
+    },
+    {
+        id: 2,
+        name: "Action",
+        thumbnail: require("../assets/images/genre/action.jpg"),
+    },
+    {
+        id: 3,
+        name: "Horror",
+        thumbnail: require("../assets/images/genre/horror.jpg"),
+    },
+    {
+        id: 4,
+        name: "Thriller",
+        thumbnail: require("../assets/images/genre/thriller.jpg"),
+    },
+    {
+        id: 5,
+        name: "Comedy",
+        thumbnail: require("../assets/images/genre/drama.jpg"),
+    }
+]
 export const  moviesData = [
     {
         id: 1,
@@ -243,7 +269,8 @@ export const  moviesData = [
 ]
 
 const staticData = {
-    moviesData
+    moviesData,
+    genreData
 };
 
 export default staticData;

@@ -3,9 +3,17 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { useFonts } from 'expo-font';
 import {
   Splash,
-  Welcome
+  Welcome,
+  LoginHome,
+  SignUpHome,
+  Login,
+  FavoriteGenre,
+  SignUpPhone,
+  VerifyPhone,
+  CreatePassword,
+  AddInfo
 } from './screens';
-
+import { Tabs } from './navigation';
 const Stack = createStackNavigator()
 
 function App() {
@@ -21,7 +29,6 @@ function App() {
   }
 
   return (
-
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
@@ -38,6 +45,51 @@ function App() {
         <Stack.Screen
           name="Welcome"
           component={Welcome}
+        />
+
+        <Stack.Screen
+          name="LoginHome"
+          component={LoginHome}
+        />
+
+        <Stack.Screen
+          name="SignUpHome"
+          component={SignUpHome}
+        />
+
+        <Stack.Screen
+          name="Login"
+          component={Login}
+        />
+
+        <Stack.Screen
+          name="FavoriteGenre"
+          component={FavoriteGenre}
+        />
+
+        <Stack.Screen
+          name="SignUpPhone"
+          component={SignUpPhone}
+        />
+
+        <Stack.Screen
+          name="VerifyPhone"
+          component={VerifyPhone}
+        />
+
+        <Stack.Screen
+          name="CreatePassword"
+          component={CreatePassword}
+        />
+
+        <Stack.Screen
+          name="AddInfo"
+          component={AddInfo}
+        />
+
+        <Stack.Screen
+          name='Home'
+          component={Tabs}
         />
 
       </Stack.Navigator>
