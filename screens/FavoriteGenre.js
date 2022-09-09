@@ -26,7 +26,7 @@ function FavoriteGenre({ navigation, route }) {
 	/*header section */
 	function renderHeader() {
 		return (
-			<View style={{ backgroundColor: COLORS.white }}>
+			<View >
 				<View
 					style={{
 						marginTop: Platform.OS === 'android' ? StatusBar.currentHeight + SIZES.radius : SIZES.radius,
@@ -211,7 +211,7 @@ function FavoriteGenre({ navigation, route }) {
 			>
 
 				<RoundButton
-					onPress={() => navigation.navigate('Home')}
+					onPress={() => navigation.navigate('HomeScreen')}
 					containerStyle={{
 						width: SIZES.width * 0.85,
 						marginTop: SIZES.padding,
