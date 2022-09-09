@@ -21,7 +21,7 @@ function Login({ navigation, route }) {
     /*header section */
     function renderHeader() {
         return (
-            <View style={{ backgroundColor: COLORS.white }}>
+            <View>
                 <View
                     style={{
                         marginTop: Platform.OS === 'android' ? StatusBar.currentHeight + SIZES.radius : SIZES.radius,

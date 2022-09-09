@@ -11,7 +11,8 @@ import {
   SignUpPhone,
   VerifyPhone,
   CreatePassword,
-  AddInfo
+  AddInfo,
+  MovieDetail
 } from './screens';
 import { Tabs } from './navigation';
 const Stack = createStackNavigator()
@@ -88,8 +89,13 @@ function App() {
         />
 
         <Stack.Screen
-          name='Home'
+          name='HomeScreen'
           component={Tabs}
+        />
+
+        <Stack.Screen
+          name='MovieDetail'
+          component={MovieDetail}
         />
 
       </Stack.Navigator>

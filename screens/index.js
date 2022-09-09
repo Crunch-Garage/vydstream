@@ -9,6 +9,7 @@ import VerifyPhone from "./VerifyPhone";
 import CreatePassword from "./CreatePassword";
 import AddInfo from "./AddInfo";
 import Home from "./Home";
+import MovieDetail from "./MovieDetail";
 
 export {
     Splash,
@@ -21,5 +22,6 @@ export {
     VerifyPhone,
     CreatePassword,
     AddInfo,
-    Home
+    Home,
+    MovieDetail
 }
