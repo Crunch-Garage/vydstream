@@ -49,7 +49,7 @@ function MovieDetail({ navigation, route }) {
                         position: 'absolute',
                         width: CARD_WIDTH,
                         height: CARD_HEIGHT,
-                        backgroundColor: 'rgba(0, 0 ,0 , 0.7)'
+                        backgroundColor: 'rgba(0, 0 ,0 , 0.5)'
                     }}
                 >
 
@@ -99,12 +99,7 @@ function MovieDetail({ navigation, route }) {
                             marginTop: CARD_HEIGHT * .125
                         }}
                     >
-                        <TouchableOpacity
-                            style={{
-                                width: 30,
-                                height: 30
-                            }}
-                        >
+                        <TouchableOpacity>
 
                             <SvgImage
                                 containerStyle={{
@@ -381,7 +376,7 @@ function MovieDetail({ navigation, route }) {
                         flexDirection: 'row',
                         marginTop: SIZES.radius,
                         alignItems: 'center',
-                        height: 60,
+                        height: 55,
                         borderRadius: SIZES.padding * 2,
                         padding: 10,
                         backgroundColor: 'rgba(116, 116, 116, 1)',
@@ -401,18 +396,18 @@ function MovieDetail({ navigation, route }) {
                         }}
                     />
 
-                    <View
-                        style = {{
-                            marginRight:SIZES.radius * 1.5
+                    <TouchableOpacity
+                        style={{
+                            marginRight: SIZES.radius * 1.5
                         }}
                     >
-                    <SvgImage
-                        containerStyle={{
-                            width: `${25}px`,
-                            height: `${25}px`,
-                            icon_name: svgIcons.send_icon
-                        }} />
-                    </View>
+                        <SvgImage
+                            containerStyle={{
+                                width: `${25}px`,
+                                height: `${25}px`,
+                                icon_name: svgIcons.send_icon
+                            }} />
+                    </TouchableOpacity>
 
                 </View>
 
