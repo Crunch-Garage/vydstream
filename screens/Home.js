@@ -172,7 +172,9 @@ function Home({ navigation, route }) {
 
 						<View
 							style={{
-								marginHorizontal: SIZES.padding
+								marginHorizontal: SIZES.padding,
+								position: 'absolute',
+								bottom: SIZES.radius * 1.5
 							}}
 						>
 							<Text
@@ -180,9 +182,9 @@ function Home({ navigation, route }) {
 									...FONTS.poppinsSemiBoldFont,
 									fontSize: 25,
 									lineHeight: 26,
-									marginTop: CARD_HEIGHT * 0.25,
+									//marginTop: CARD_HEIGHT * 0.25,
 									textAlign: 'left',
-									color: COLORS.vydstream_white
+									color: COLORS.vydstream_white,
 								}}
 								numberOfLines={1}
 							>{movie?.name}</Text>
@@ -258,6 +260,7 @@ function Home({ navigation, route }) {
 								style={{
 									marginTop: SIZES.radius * 1.5,
 									flexDirection: 'row',
+									alignItems:'center'
 								}}
 							>
 								<TouchableOpacity
@@ -301,18 +304,20 @@ function Home({ navigation, route }) {
 								</TouchableOpacity>
 
 								<TouchableOpacity
+									onPress={() => navigation.navigate('MovieDetail', ({ movie_details: movie }))}
 									style={{
 										alignSelf: 'flex-start',
 										flexDirection: 'row',
 										justifyContent: 'center',
 										alignItems: 'center',
 										borderRadius: SIZES.padding * 3,
-										padding: 8,
+										padding: 7,
 										backgroundColor: 'transparent',
 										elevation: 3,
 										marginLeft: SIZES.radius,
-										borderWidth: 1,
+										borderWidth: .5,
 										borderColor: COLORS.vydstream_white
+
 									}}
 								>
 									<View
@@ -340,6 +345,8 @@ function Home({ navigation, route }) {
 										}}
 									>{'My List'}</Text>
 								</TouchableOpacity>
+
+
 							</View>
 
 						</View>
@@ -455,7 +462,7 @@ function Home({ navigation, route }) {
 			const CARD_HEIGHT = SIZES.width * 0.6;
 			return (
 				<TouchableOpacity
-				onPress={() => navigation.navigate('MovieDetail', ({ movie_details: movie }))}
+					onPress={() => navigation.navigate('MovieDetail', ({ movie_details: movie }))}
 					style={{
 						marginLeft: SIZES.radius,
 						marginTop: SIZES.radius,
@@ -589,7 +596,7 @@ function Home({ navigation, route }) {
 			const CARD_HEIGHT = SIZES.width * 0.6;
 			return (
 				<TouchableOpacity
-				onPress={() => navigation.navigate('MovieDetail', ({ movie_details: movie }))}
+					onPress={() => navigation.navigate('MovieDetail', ({ movie_details: movie }))}
 					style={{
 						marginLeft: SIZES.radius,
 						marginTop: SIZES.radius,

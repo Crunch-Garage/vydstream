@@ -46,7 +46,7 @@ function FavoriteGenre({ navigation, route }) {
 						}}
 					>
 						<TouchableOpacity
-							onPress={() => navigation.goBack(null)}
+							onPress={() => navigation.navigate('HomeScreen')}
 							style={{
 								width: 35,
 								height: 35,

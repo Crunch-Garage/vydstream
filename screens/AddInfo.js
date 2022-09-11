@@ -155,7 +155,6 @@ function AddInfo({ navigation, route }) {
                 style={{
                     position: 'absolute',
                     width: SIZES.width,
-                    //alignItems: 'center',
                     bottom: 0,
                     left: 0,
 
@@ -189,7 +188,7 @@ function AddInfo({ navigation, route }) {
                             color: COLORS.vydstream_white,
                             fontSize: 16,
                             ...FONTS.poppinsSemiBoldFont,
-                            marginHorizontal: SIZES.padding * 1.5
+                            marginHorizontal: SIZES.padding
                         }}
                         title={'Skip'}
                     />
@@ -213,7 +212,7 @@ function AddInfo({ navigation, route }) {
                             color: COLORS.vydstream_white,
                             fontSize: 16,
                             ...FONTS.poppinsSemiBoldFont,
-                            marginHorizontal: SIZES.padding * 2
+                            marginHorizontal: SIZES.padding 
                         }}
                         title={'Continue'}
                     />
