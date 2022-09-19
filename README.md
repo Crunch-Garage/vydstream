@@ -22,6 +22,10 @@ target="_blank"><img src="https://img.shields.io/badge/React%20Native-0.69.5-red
 
  <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/vydstream/master/assets/images/git/vydstream_3.png"  width="200px" height="300px"/>
 
+ <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/vydstream/master/assets/images/git/vydstream_4.png"  width="200px" height="300px"/>
+
+ <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/vydstream/master/assets/images/git/vydstream_5.png"  width="200px" height="300px"/>
+
 </div>
 
 # 📒 Project Model
