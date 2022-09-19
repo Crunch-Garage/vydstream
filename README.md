@@ -26,6 +26,8 @@ target="_blank"><img src="https://img.shields.io/badge/React%20Native-0.69.5-red
 
 # 📒 Project Model
 
+Vydstream is an app that enables people to access and stream top-rated movies and TV shows instantly just like NetFlix build with <b>Expo</b> and  <b>React Native</b>.
+
 This is a concept app that we designed and built for demonstration purposes and to inspire the development and design community.
 
 The demo app is available for download for Android, UI-Designs, and the source code is also open-sourced (Links Below this Post).
