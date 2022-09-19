@@ -14,10 +14,10 @@ target="_blank"><img src="https://img.shields.io/badge/React%20Native-0.69.5-red
 
 <div align="row" > 
 
- <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/vydstream/master/assets/images/git/vydstream_1.png" width="400px" height="600px"/><br/>
+ <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/vydstream/master/assets/images/git/vydstream_1.png" width="200px" height="300px"/>
 
- <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/vydstream/master/assets/images/git/vydstream_2.png"  width="400px" height="600px"/><br/>
+ <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/vydstream/master/assets/images/git/vydstream_2.png"  width="200px" height="300px"/>
 
- <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/vydstream/master/assets/images/git/vydstream_3.png"  width="400px" height="600px"/><br/>
+ <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/vydstream/master/assets/images/git/vydstream_3.png"  width="200px" height="300px"/>
 
 </div>
